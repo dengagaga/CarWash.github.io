@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/car-washin.svg" type="img/svg">
+  <link rel="apple-touch-icon" href="img/car-washin.svg">
+  <title>Корзина</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header tkan-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo"><p class="logo-car">CarWashMarket</p></a>
+        <button class="dark-mode-btn">
+          <img src="img/sun.svg" alt="" class="dark-mode-btn-icon">
+          <img src="img/Moon (1).svg" alt="" class="dark-mode-btn-icon">
+        </button>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html" class="menu-link">Главная</a></li>
+          <li class="menu-item"><a href="#clientam" class="menu-link">Клиентам</a></li>
+          <li class="menu-item"><a href="#footer-1" class="menu-link">Контакты</a></li>
+          <li class="menu-item"><a href="pay.html" class="menu-link">Оплата и Доставка</a></li>
+          <div><a href="Corzina.html"><img src="img/cart-basket-ui-4-svgrepo-com.svg" alt="" width="25px"></a></div>
+        </ul>
+        <div class="menu-icon">
+          <span>
+
+          </span>
+          <span>
+
+          </span>
+          <span>
+
+          </span>
+      </div>
+      </nav>
+
+      <div class="header-mid tkan-mid">
+        <ul class="mid-menu">
+          <li class="mid-menu-item"><a href="" class="mid-menu-link">Экстерьер</a>
+            <ul class="submenu two">
+              <li><a href="defenspocritya.html">Защитные покрытия</a></li>
+              <li><a href="bodycleaners.html">Очистители кузова</a></li>
+              <li><a href="shampooscars.html">Автошампуни</a></li>
+              <li><a href="motor.html">Уход за двигателем</a></li>
+              <li><a href="rubber.html">Уход за колесами</a></li>
+              <li><a href="Glas.html">Уход за стеклами</a></li>
+            </ul>
+          </li>
+          <li class="mid-menu-item"><a href="" class="mid-menu-link">Интерьер</a>
+            <ul class="submenu">
+              <li><a href="skin.html">Уход за кожей</a></li>
+              <li><a href="textile.html">Уход за тканью</a></li>
+              <li><a href="plastick.html">Уход за пластиком</a></li>
+              <li><a href="flavors.html">Ароматизаторы</a></li>
+            </ul>
+          </li>
+          <li class="mid-menu-item"><a href="" class="mid-menu-link">Акссесуары</a>
+            <ul class="submenu three">
+              <li><a href="microfiber.html">Микрофибры</a></li>
+              <li><a href="circle.html">Полировальные круги</a></li>
+              <li><a href="cleaningbrush.html">Щетки для чистки</a></li>
+              <li><a href="containers.html">Остальное</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-corzina" data-corzina>
+      <div class="container">
+        <!-- <h1 class="title corzina-title">Корзина</h1> -->
+        <div class="cart-wrapper">
+          <div class="corzina-none">
+            <h1 class="corzina-none-title">ВАША КОРЗИНА ПУСТА</h1>
+            <p class="corzina-none-text">Воспользуйтесь каталогом, чтобы добавить товар.</p>
+            <a href="shampooscars.html" class="corzina-none--link">НАЧАТЬ ПОКУПКИ</a>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="btn-zakaz none" data-zakaz>
+            Оформить Заказ
+          </button>
+        </div>
+      </div>
+      <!-- <div class="modal-cor">
+                <div class="modal" id="my-modal">
+                    <div class="modal-box">
+                        <button class="close-btn" id="close-my-mode-btn">
+                            <svg class="close-btn-svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.70711 0.292894C1.31658 -0.0976312 0.683417 -0.0976312 0.292893 0.292894C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L4.58579 6L0.292894 10.2929C-0.0976307 10.6834 -0.0976307 11.3166 0.292894 11.7071C0.683418 12.0976 1.31658 12.0976 1.70711 11.7071L6 7.41421L10.2929 11.7071C10.6834 12.0976 11.3166 12.0976 11.7071 11.7071C12.0976 11.3166 12.0976 10.6834 11.7071 10.2929L7.41421 6L11.7071 1.70711C12.0976 1.31658 12.0976 0.683418 11.7071 0.292894C11.3166 -0.0976306 10.6834 -0.0976306 10.2929 0.292894L6 4.58579L1.70711 0.292894Z" fill="#4E4E4E"/>
+                            </svg>
+        
+                        </button>
+                        <div class="modalbox-all">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+      <div class="modal-cor" id="my-modal-cor">
+        <div class="modal-box-cor">
+          <button class="close-btn-cor" id="close-my-mode-btn-cor">
+            <svg class="close-btn-svg-cor" width="12" height="12" viewBox="0 0 12 12" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.70711 0.292894C1.31658 -0.0976312 0.683417 -0.0976312 0.292893 0.292894C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L4.58579 6L0.292894 10.2929C-0.0976307 10.6834 -0.0976307 11.3166 0.292894 11.7071C0.683418 12.0976 1.31658 12.0976 1.70711 11.7071L6 7.41421L10.2929 11.7071C10.6834 12.0976 11.3166 12.0976 11.7071 11.7071C12.0976 11.3166 12.0976 10.6834 11.7071 10.2929L7.41421 6L11.7071 1.70711C12.0976 1.31658 12.0976 0.683418 11.7071 0.292894C11.3166 -0.0976306 10.6834 -0.0976306 10.2929 0.292894L6 4.58579L1.70711 0.292894Z"
+                fill="#4E4E4E" />
+            </svg>
+
+          </button>
+          <div class="modalbox-all-cor">
+            <form class="cart-form corzina-form-ker"  action="mail.php" method="POST" id="sendCartForm" >
+              <h2 class="title-cor">Заполните форму и наш специалист свяжится с вами в течении 15 минут</h2>
+              <div>
+                <input id="form-name" name="client name" type="text" class="input-cor" placeholder="ФИО" autocomplete="on">
+              </div>
+              <div>
+                <input id="form-phone" name="phone" type="tel" class="input-cor" placeholder="Номер телефона" autocomplete="on">
+              </div>
+              <input id="form-cart" type="text" class="input-cor none">
+              <div class="checkbox-cor"><input type="checkbox" checked><span>Согласен на обработку персональных данных</span></div>
+              <button class="btn-zakaz-corzina">ЗАКАЗАТЬ</button>
+            </form>
+            <div class="success-message none">
+              <div class="success-massage__inner">
+                <div class="success-message__title">Спасибо за заявку!</div>
+                <div class="success-message__text">В ближайшее время мы свяжемся с вами</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer" id="footer-1">
+    <div class="container">
+      <div class="footer-all">
+        <div class="footer-all-top">
+          <p class="footer-all-text-top">г. Липецк,
+            просп. имени 60-летия СССР, 34 (1 этаж).</p>
+          <a href="Ler.lip.html"> <img src="img/Лератон.png" width="150px" alt="" class="footer-all-img"></a>
+          <div class="footer-all-text-bot">Ежедневно с 11:00 по 20:00.</div>
+        </div>
+        <div class="footer-link">
+          <a href="https://instagram.com/leraton.lip?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.svg" alt="" class="vk-inst"></a>
+          <a href="https://vk.com/leratonlip" target="_blank"><img src="img/vk.svg" alt="" class="vk-svg"></a>
+          <a href=""><img src="img/twitter.svg" alt="" target="_blank" class="vk-twit"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/validation/inputmask.min.js"></script>
+  <script src="js/validation/justvalidate.min.js"></script>
+  <script src="js/kor.js"></script>
+  <script src="js/local.js"></script>
+  <script src="js/DarkMode.js"></script>
+  <script src="js/modal2.js"></script>
+  <script src="js/burger.js"></script>
+</body>
+
+</html>
